@@ -54,7 +54,7 @@ module.exports = {
             },
             backgroundImage: () => ({
                 // hypnos
-                'cuanmax': "url('images/CuanMax.svg')"
+                'africa': "url('images/Africa.svg')"
             }),
             colors: {
                 white: '#fff',

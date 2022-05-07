@@ -61,11 +61,11 @@ function HeaderComp() {
             items={[
                 {
                     label: 'Conflux Core',
-                    key: '/pool/core/0x874b44da0addd8acfbe018f82aab741b57e176f5'
+                    key: '/pool/core/0x81388b499a6f76f47c78c35807c8d1ab4efa019a'
                 },
                 {
                     label: 'Conflux eSpace',
-                    key: '/pool/e-space/0xa3a9d461FDb27A8F798E2c93256537625F069c7b?coreAddress=0x874b44da0addd8acfbe018f82aab741b57e176f5'
+                    key: '/pool/e-space/0xa3a9d461FDb27A8F798E2c93256537625F069c7b?coreAddress=0x81388b499a6f76f47c78c35807c8d1ab4efa019a'
                 },
             ]}
         />
@@ -83,10 +83,6 @@ function HeaderComp() {
                 {
                     label: 'English',
                     key: 'en',
-                },
-                {
-                    label: 'Indonesian',
-                    key: 'id',
                 },
             ]}
         />
@@ -117,7 +113,7 @@ function HeaderComp() {
                 <div className='w-[1200px] flex justify-between h-[72px] flex-wrap' style={{ margin: '0 auto' }}>
                     <div className='w-[600px]'>
                         <p className='title'>
-                            CuanMax
+                            Staking Africa
                         </p>
                     </div>
                     {/* <div className="flex items-center"> hypnos */}
