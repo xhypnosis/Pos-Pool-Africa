@@ -65,7 +65,7 @@ function HeaderComp() {
                 },
                 {
                     label: 'Conflux eSpace',
-                    key: '/pool/e-space/0xa3a9d461FDb27A8F798E2c93256537625F069c7b?coreAddress=0x81388b499a6f76f47c78c35807c8d1ab4efa019a'
+                    key: '/pool/e-space/0x4395486B5DD6AD3aBc1535aF29d3F7e56d9E4CcF?coreAddress=0x81388b499a6f76f47c78c35807c8d1ab4efa019a'
                 },
             ]}
         />
