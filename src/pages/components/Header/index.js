@@ -112,23 +112,26 @@ function HeaderComp() {
     >
       {/* hypnos+m 23/02/16 */}
       <Modal
-        title="Offline warning"
+        title="Important Notice"
         visible={isModalOpen}
         onOk={handleOk}
         onCancel={handleCancel}
       >
         <p>
-          The pool will be offline on February 22, 2023. The staking operation
-          will no longer be available at that time. Users can manually withdraw
-          the CFX staked in the pool, any unwithdrawn CFX will be returned
-          automatically by March 8.
+          Staking Africa will be closed on March 8th at 10 AM (UTC). Staking and
+          interest generation will be stopped on February 22nd at 10 AM (UTC).
+          Staked amounts will be returned on March 8th if they have not been
+          unstaked.
         </p>
       </Modal>
       {/* hypnos+a 23/02/16 */}
       <div className="w-full h-20">
         <div className="position: fixed z-50 top-0">
           <Alert
-            message="The pool will be offline on February 22, 2023. The staking operation will no longer be available at that time. Users can manually withdraw the CFX staked in the pool, any unwithdrawn CFX will be returned automatically by March 8."
+            message="Important Notice: Staking Africa will be closed on March 8th at 10 AM (UTC). Staking and
+            interest generation will be stopped on February 22nd at 10 AM (UTC).
+            Staked amounts will be returned on March 8th if they have not been
+            unstaked."
             type="warning"
             showIcon
           />
